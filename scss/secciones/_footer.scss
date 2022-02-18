@@ -5,6 +5,9 @@
           
     &-container {
         background-color: $footer-container;
+        position: absolute;
+    width: 100%;
+    bottom:0
     }
     /* Acomodar links del footer */
     &-links {
@@ -32,5 +35,6 @@
         align-items: center;
         justify-content: center;
     }
-}
+    
 
+}

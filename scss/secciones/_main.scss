@@ -1,5 +1,28 @@
 /* Suavizando bordes de tarjetas con texto */
 .card {
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
+
+    @include card-properties(20px, 20px);
+      box-shadow: 9px 10px 15px -12px rgba(0,0,0,0.85);
+    -webkit-box-shadow: 9px 10px 15px -12px rgba(0,0,0,0.85);
+    -moz-box-shadow: 9px 10px 15px -12px rgba(0,0,0,0.85);
+    margin-bottom: 20px;
+}
+//EXTEND
+%alturamain{
+    height: 70vh;
+}
+
+
+main{
+    @extend %alturamain;
+}
+
+
+
+
+@each $name-color,
+$bgcolor in $banderola {
+    .flag-#{$name-color} {
+        background-color: $bgcolor;
+    }
 }

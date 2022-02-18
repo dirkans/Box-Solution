@@ -3,7 +3,7 @@
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.15"
   },
-  "name": "desafio-sass-i",
+  "name": "box-solution",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,6 @@
   },
   "author": "Pablo Ambrosio",
   "license": "ISC",
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dirkans/SASS-II-SEO.git"
@@ -22,5 +21,14 @@
     "url": "https://github.com/dirkans/SASS-II-SEO/issues"
   },
   "homepage": "https://github.com/dirkans/SASS-II-SEO#readme",
-  "description": ""
+  "description": "Consignas del desafío:",
+  "devDependencies": {},
+  "keywords": [
+    "almacenamiento",
+    "envios",
+    "shipping",
+    "delivery",
+    "lockers",
+    "smartlockers"
+  ]
 }
